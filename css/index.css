@@ -1,0 +1,109 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+* {
+  line-height: 1.2;
+  margin: 0;
+}
+
+html {
+  color: white;
+  display: table;
+  font-family: "JetBrains Mono";
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+body {
+  background: black;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 2em auto;
+}
+
+h1 {
+  color: #555;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.social_media_name {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+#social-media-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.long-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 10px 20px;
+
+  background-color: white;
+  color: black;
+
+  text-align: center;
+  text-decoration: none;
+
+  border-radius: 20px;
+  cursor: pointer;
+
+  width: 80%;
+  max-width: 500px;
+  margin-bottom: 1.25em;
+}
+
+.social_media_name {
+  flex-grow: 0.9;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.long-button:hover {
+  animation: bounce 0.5s infinite;
+}
+
+#profile_picture {
+  height: 200px;
+  border-radius: 30%;
+  margin-bottom: 1.25em;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: small;
+  font-family: "JetBrains Mono";
+}
+
+.profile-picture-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1.25em;
+}
+
+.profile-picture {
+  width: 200px; /* Adjust the size of your profile picture */
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 1.25em;
+}
