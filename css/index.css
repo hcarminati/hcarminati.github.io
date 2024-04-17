@@ -5,6 +5,7 @@
 * {
   line-height: 1.2;
   margin: 0;
+  text-decoration: none;
 }
 
 html {
@@ -106,4 +107,12 @@ footer {
   height: 200px;
   border-radius: 50%;
   margin-bottom: 1.25em;
+}
+
+.viewPokemon {
+  padding: 10px;
+  width: 100%;
+  font-size: small;
+  color: #888;
+  font-family: "JetBrains Mono";
 }
