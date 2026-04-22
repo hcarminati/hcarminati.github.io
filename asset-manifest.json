@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f31e7a8a.css",
-    "main.js": "/static/js/main.b619c628.js",
+    "main.js": "/static/js/main.a4c731ee.js",
     "static/js/453.2102b1ff.chunk.js": "/static/js/453.2102b1ff.chunk.js",
     "static/media/BSC_Crawl_Map.png": "/static/media/BSC_Crawl_Map.ce573480b6f3ec63e4d6.png",
     "static/media/husky-flash-logo.png": "/static/media/husky-flash-logo.1af55c425d93a4553cb7.png",
@@ -22,11 +22,11 @@
     "static/media/Trends.ttf": "/static/media/Trends.c7dcd38d7493630091d5.ttf",
     "index.html": "/index.html",
     "main.f31e7a8a.css.map": "/static/css/main.f31e7a8a.css.map",
-    "main.b619c628.js.map": "/static/js/main.b619c628.js.map",
+    "main.a4c731ee.js.map": "/static/js/main.a4c731ee.js.map",
     "453.2102b1ff.chunk.js.map": "/static/js/453.2102b1ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f31e7a8a.css",
-    "static/js/main.b619c628.js"
+    "static/js/main.a4c731ee.js"
   ]
 }
